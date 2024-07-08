@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Montserrat", sans-serif;
     list-style-type: none;
     text-decoration: none;
     margin: 0;
@@ -117,4 +117,47 @@
 
     color: #fff;
     background-color: #000;
+}
+
+.card__title {
+    width: 500px;
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 50px;
+    margin: 0 42%;
+    color: #000;
+}
+
+.section__inner {
+    padding-top: 100px;
+    display: flex;
+    margin: 0 100px;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.card-img {
+    padding-top: 35px;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 0;
+    color: #000;
+}
+
+.card-container {
+    padding: 20px 0;
+}
+
+.card-box {
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+
+    border: 2px solid #88FFCA;
+    background-color: #d2ffeb;
 }
